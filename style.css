@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    overflow-x: hidden;
+}
+.container{
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    top: 10px;
+    align-items: center;
+    text-align: center;
+    width: 30rem;
+    height: 15rem;
+    background-color: aqua;
+}
+.card{
+  
+    background-color: purple !important;
+    width: 35rem !important;
+    height: 10rem !important;
+    margin-bottom: 10px !important;
+}
+.list-group-item{
+    font-size: 1.5rem !important;
+    width: 35rem !important;
+    height: 4rem !important;
+    
+}
+
+ul {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-decoration: none; 
+    list-style: none;
+    
+}
+ul li{
+   margin: auto;
+   
+    background-color: rgb(139, 194, 243) !important; 
+    color: white;
+    width: 25rem;
+    font-size: 2rem;
+    
+}
+ul li button{
+    margin-left: 20px;
+    margin-top: 5px;
+    
+    align-items: center;
+}
+
+input{
+    display: flex;
+    font-size: 1.5rem !important;
+   
+    border: 2px solid red;
+
+    
+}
+button{
+    margin: 2px !important;
+    font-size: 1rem;
+    border: 1px solid red;
+  
+}
+.delete{
+    margin-left: 10px !important;
+    font-size: 1rem;
+}
